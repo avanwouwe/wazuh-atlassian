@@ -13,7 +13,7 @@ STR_ATLASSIAN = 'atlassian'
 
 RESULTS_PER_REQUEST = 500
 MAX_API_RETRIES = 5
-MAX_REQUESTS_PER_MINUTE = 1
+MAX_REQUESTS_PER_MINUTE = 3
 ATLASSIAN_APPLICATIONS = {
 	'beacon': 'beacon',
 	'bitbucket': 'bitbucket',
