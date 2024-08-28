@@ -256,8 +256,8 @@ def update_state():
 def json_msg(action, description):
 	msg = {
 		'id' : random.randint(0, 99999999999999),
-		'orgId' : dict_path(CONFIG, STR_ORGID),
 		STR_ATLASSIAN : {
+			'orgId' : dict_path(CONFIG, STR_ORGID),
 			'action' : action,
 			'description' : description,
 		}
