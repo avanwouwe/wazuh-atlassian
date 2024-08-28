@@ -1,0 +1,6298 @@
+{
+  "data": [
+    {
+      "type": "eventActions",
+      "id": "api_token_created",
+      "attributes": {
+        "displayName": "Created admin API key",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "api_token_revoked",
+      "attributes": {
+        "displayName": "Revoked admin API key",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_added_content_restriction",
+      "attributes": {
+        "displayName": "Added Confluence content restriction",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_added_default_space_permission",
+      "attributes": {
+        "displayName": "Added Confluence default space permission",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_added_global_permission",
+      "attributes": {
+        "displayName": "Added Confluence global permission",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_added_space_permission",
+      "attributes": {
+        "displayName": "Added Confluence space permission",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_added_global_permission",
+      "attributes": {
+        "displayName": "Added Jira global permission",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_added_issue_security_level",
+      "attributes": {
+        "displayName": "Added Jira issue security level",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "added_org_admin",
+      "attributes": {
+        "displayName": "Added user as organization admin",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_associated_issue_security_scheme_to_jira_project",
+      "attributes": {
+        "displayName": "Associated Jira issue security scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_associated_permission_scheme_to_jira_project",
+      "attributes": {
+        "displayName": "Associated Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "third_party_integration_connected",
+      "attributes": {
+        "displayName": "Connected to third party integrations",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_copied_default_space_permissions",
+      "attributes": {
+        "displayName": "Copied Confluence default space permissions",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_copied_space_permissions",
+      "attributes": {
+        "displayName": "Copied Confluence space permissions",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_copied_issue_security_scheme",
+      "attributes": {
+        "displayName": "Copied Jira issue security scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_copied_permission_scheme",
+      "attributes": {
+        "displayName": "Copied Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "audit_log_webhook_created",
+      "attributes": {
+        "displayName": "Created audit log webhook registration",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_created_issue_security_scheme",
+      "attributes": {
+        "displayName": "Added Jira issue security scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_created_permission_scheme",
+      "attributes": {
+        "displayName": "Created Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "site_created",
+      "attributes": {
+        "displayName": "New site created",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "audit_log_webhook_deleted",
+      "attributes": {
+        "displayName": "Deleted audit log webhook registration",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_deleted_issue_security_level",
+      "attributes": {
+        "displayName": "Deleted Jira issue security level",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_deleted_issue_security_scheme",
+      "attributes": {
+        "displayName": "Deleted Jira issue security scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_deleted_permission_scheme",
+      "attributes": {
+        "displayName": "Deleted Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_deleted_project_role",
+      "attributes": {
+        "displayName": "Deleted Jira project role",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "imported_managed_account_invites_disabled",
+      "attributes": {
+        "displayName": "Disabled invites of managed accounts",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "third_party_account_invites_disabled",
+      "attributes": {
+        "displayName": "Disabled third party invites",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "third_party_integration_disconnected",
+      "attributes": {
+        "displayName": "Disconnected from third party integrations",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "imported_managed_account_invites_enabled",
+      "attributes": {
+        "displayName": "Enabled invites of managed accounts",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "third_party_account_invites_enabled",
+      "attributes": {
+        "displayName": "Enabled third party invites",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "twosv_enabled_for_user",
+      "attributes": {
+        "displayName": "Enforced two-step verification for user",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "twosv_enforced",
+      "attributes": {
+        "displayName": "Enforced two-step verification for managed accounts",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_domain_account",
+      "attributes": {
+        "displayName": "Exported accounts for verified domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_external_users",
+      "attributes": {
+        "displayName": "Exported external users",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_audit_log",
+      "attributes": {
+        "displayName": "Exported organization audit log",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_api_tokens",
+      "attributes": {
+        "displayName": "Exported API tokens",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_managed_account",
+      "attributes": {
+        "displayName": "Exported managed accounts",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_enterprise_subscription_unique_users",
+      "attributes": {
+        "displayName": "Exported Enterprise product users",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_grant_assigned_to_permission_scheme",
+      "attributes": {
+        "displayName": "Granted permission to Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_grant_removed_from_permission_scheme",
+      "attributes": {
+        "displayName": "Removed permission from Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "site_initiated",
+      "attributes": {
+        "displayName": "Initiated creation of site",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_member_added_issue_security_level",
+      "attributes": {
+        "displayName": "Added Jira issue security level member",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_member_added_project_role",
+      "attributes": {
+        "displayName": "Added member to Jira project role",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_member_removed_issue_security_level",
+      "attributes": {
+        "displayName": "Removed Jira issue security level member",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_member_removed_project_role",
+      "attributes": {
+        "displayName": "Removed member from Jira project role",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_removed_content_restriction",
+      "attributes": {
+        "displayName": "Removed Confluence content restriction",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_removed_default_space_permission",
+      "attributes": {
+        "displayName": "Removed Confluence default space permission",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_removed_global_permission",
+      "attributes": {
+        "displayName": "Removed Confluence global permission",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_removed_space_permission",
+      "attributes": {
+        "displayName": "Removed Confluence space permission",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_removed_global_permission",
+      "attributes": {
+        "displayName": "Removed Jira global permission",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "removed_org_admin",
+      "attributes": {
+        "displayName": "Removed user as an organization admin",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "site_rename_event",
+      "attributes": {
+        "displayName": "Initiated update to site URL",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "site_transferred",
+      "attributes": {
+        "displayName": "Initiated transfer of products from organization",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "reset_all_managed_account_passwords",
+      "attributes": {
+        "displayName": "Reset passwords for managed accounts",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "set_session_policy",
+      "attributes": {
+        "displayName": "Updated idle session duration",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_verification_started",
+      "attributes": {
+        "displayName": "Started to verify domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "twosv_disabled_for_user",
+      "attributes": {
+        "displayName": "Excluded user from two-step verification",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "twosv_unenforced",
+      "attributes": {
+        "displayName": "Stopped enforcing two-step verification for managed accounts",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "audit_log_webhook_updated",
+      "attributes": {
+        "displayName": "Updated audit log webhook registration",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "autoclaim_config_updated",
+      "attributes": {
+        "displayName": "Updated automatic account claim",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_updated_issue_security_level",
+      "attributes": {
+        "displayName": "Updated Jira issue security level",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_updated_issue_security_scheme",
+      "attributes": {
+        "displayName": "Updated Jira issue security scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_updated_permission_scheme",
+      "attributes": {
+        "displayName": "Updated Jira project permission scheme",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "updated_users_claim",
+      "attributes": {
+        "displayName": "Claimed accounts for domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "updated_users_unclaim",
+      "attributes": {
+        "displayName": "Unclaimed accounts for domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "organization_policy_validated",
+      "attributes": {
+        "displayName": "Validated organization policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "organization_domains_viewed",
+      "attributes": {
+        "displayName": "Viewed organization domains",
+        "groupDisplayNames": [
+          "ORGANIZATIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "organization_policies_viewed",
+      "attributes": {
+        "displayName": "Viewed organization policies",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_last_active_dates_viewed",
+      "attributes": {
+        "displayName": "Viewed last active dates",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_activated",
+      "attributes": {
+        "displayName": "Activated custom domain",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_activated",
+      "attributes": {
+        "displayName": "Activated data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_all_coverage_removed",
+      "attributes": {
+        "displayName": "Removed coverage from data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_app_added",
+      "attributes": {
+        "displayName": "Added apps to data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_app_list_rule_switched",
+      "attributes": {
+        "displayName": "Switched app list rule on data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_app_removed",
+      "attributes": {
+        "displayName": "Removed apps from data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "classification_level_archived",
+      "attributes": {
+        "displayName": "Archived classification level",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_associated_v2",
+      "attributes": {
+        "displayName": "Associated a custom domain with a product",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_coverage_updated",
+      "attributes": {
+        "displayName": "Updated coverage for data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "classification_level_created",
+      "attributes": {
+        "displayName": "Created classification level",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "auth_policy_created",
+      "attributes": {
+        "displayName": "Added authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_created",
+      "attributes": {
+        "displayName": "Created custom domain",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_created",
+      "attributes": {
+        "displayName": "Created data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "dc_connectivity_link_created",
+      "attributes": {
+        "displayName": "Link created",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "policy_created",
+      "attributes": {
+        "displayName": "Created policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "saml_config_created",
+      "attributes": {
+        "displayName": "Added SAML configuration",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "secure_tunnel_created",
+      "attributes": {
+        "displayName": "Created application tunnel",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_provisioning_created",
+      "attributes": {
+        "displayName": "Created user provisioning directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_deactivated",
+      "attributes": {
+        "displayName": "Deactivated custom domain",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_deactivated",
+      "attributes": {
+        "displayName": "Deactivated data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "auth_policy_deleted",
+      "attributes": {
+        "displayName": "Deleted authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_deleted",
+      "attributes": {
+        "displayName": "Deleted custom domain",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_deleted",
+      "attributes": {
+        "displayName": "Deleted data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "dc_connectivity_link_deleted",
+      "attributes": {
+        "displayName": "Link deleted",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "policy_deleted",
+      "attributes": {
+        "displayName": "Deleted policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "saml_config_deleted",
+      "attributes": {
+        "displayName": "Deleted SAML configuration",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "secure_tunnel_deleted",
+      "attributes": {
+        "displayName": "Deleted application tunnel",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_provisioning_deleted",
+      "attributes": {
+        "displayName": "Deleted user provisioning directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_description_added",
+      "attributes": {
+        "displayName": "Added description for data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_description_updated",
+      "attributes": {
+        "displayName": "Updated description for data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "dc_connectivity_link_disabled",
+      "attributes": {
+        "displayName": "Link disabled",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "policy_disabled",
+      "attributes": {
+        "displayName": "Disabled policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_created_activity_disabled",
+      "attributes": {
+        "displayName": "Stopped storing user-created activity",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_disassociated_v2",
+      "attributes": {
+        "displayName": "Removed an association of a custom domain to a product",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_created_activity_enabled",
+      "attributes": {
+        "displayName": "Started storing user-created activity",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "policy_enforced",
+      "attributes": {
+        "displayName": "Enabled policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "export_unmanaged_product_instances",
+      "attributes": {
+        "displayName": "Exported discovered products",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "identity_provider_create",
+      "attributes": {
+        "displayName": "Created identity provider directory",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "identity_provider_delete",
+      "attributes": {
+        "displayName": "Deleted identity provider directory",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_link",
+      "attributes": {
+        "displayName": "Linked domain to directory",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_unlink",
+      "attributes": {
+        "displayName": "Moved domain from directory",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "identity_provider_rename",
+      "attributes": {
+        "displayName": "Renamed identity provider directory",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "customer_account_idp_directory_created",
+      "attributes": {
+        "displayName": "Created identity provider directory",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_name_updated",
+      "attributes": {
+        "displayName": "Renamed data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "classification_level_published",
+      "attributes": {
+        "displayName": "Published classification level",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "dc_connectivity_link_regenerated",
+      "attributes": {
+        "displayName": "Link regenerated",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "external_users_policy_removed_user",
+      "attributes": {
+        "displayName": "Removed external user",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "classification_level_renamed",
+      "attributes": {
+        "displayName": "Renamed classification level",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "auth_policy_reset_passwords",
+      "attributes": {
+        "displayName": "Reset passwords for users in authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "auth_policy_reset_sessions",
+      "attributes": {
+        "displayName": "Reset sessions for users in authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "external_user_security_org_wide_reset_step_up_sessions",
+      "attributes": {
+        "displayName": "Reset sessions for external users",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_resource_added",
+      "attributes": {
+        "displayName": "Added products to data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_resource_removed",
+      "attributes": {
+        "displayName": "Removed products from data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "classification_level_restored",
+      "attributes": {
+        "displayName": "Restored classification level",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_rule_added",
+      "attributes": {
+        "displayName": "Added rule to data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "data_security_policy_rule_removed",
+      "attributes": {
+        "displayName": "Removed rule from data security policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "external_users_policy_saved_user",
+      "attributes": {
+        "displayName": "Saved external user",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "migration_scheduled",
+      "attributes": {
+        "displayName": "Scheduled product move to realm",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_suspended",
+      "attributes": {
+        "displayName": "Suspended custom domain",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "custom_domain_threat_detected",
+      "attributes": {
+        "displayName": "Detected a threat for a custom domain",
+        "groupDisplayNames": [
+          "CUSTOM DOMAINS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "secure_tunnel_token_refreshed",
+      "attributes": {
+        "displayName": "Regenerated token for application tunnel",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "classification_level_updated",
+      "attributes": {
+        "displayName": "Updated classification level",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "auth_policy_updated",
+      "attributes": {
+        "displayName": "Updated authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "auth_policy_type_updated",
+      "attributes": {
+        "displayName": "Authentication policy type updated",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "default_auth_policy_updated",
+      "attributes": {
+        "displayName": "Changed default authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "external_user_security_billing_type_updated",
+      "attributes": {
+        "displayName": "External user policy type updated",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "policy_updated",
+      "attributes": {
+        "displayName": "Edited policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "recommendation_preference_updated",
+      "attributes": {
+        "displayName": "Updated in-product recommendation preference",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "saml_config_updated",
+      "attributes": {
+        "displayName": "Updated SAML configuration",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "organization_information_viewed",
+      "attributes": {
+        "displayName": "Viewed organization information",
+        "groupDisplayNames": [
+          "ORGANIZATIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "organization_users_viewed",
+      "attributes": {
+        "displayName": "Viewed organization users",
+        "groupDisplayNames": [
+          "ORGANIZATIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "unmanaged_products_viewed",
+      "attributes": {
+        "displayName": "Viewed discovered products",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "unmanaged_products_total_viewed",
+      "attributes": {
+        "displayName": "Viewed discovered products count",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "api_keys_searched",
+      "attributes": {
+        "displayName": "API keys searched",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "api_tokens_searched",
+      "attributes": {
+        "displayName": "API tokens searched",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_invitation_accepted",
+      "attributes": {
+        "displayName": "Accepted invitation to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_accepted_repository_transfer_destination",
+      "attributes": {
+        "displayName": "Accepted request to transfer repository to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_accepted_repository_transfer_origin",
+      "attributes": {
+        "displayName": "Accepted request to transfer repository from workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_activated",
+      "attributes": {
+        "displayName": "Activated Bitbucket account",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_deploy_key_added",
+      "attributes": {
+        "displayName": "Added repository deploy key",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_group_permission_added",
+      "attributes": {
+        "displayName": "Added repository group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_member_added",
+      "attributes": {
+        "displayName": "Added repository member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_member_added",
+      "attributes": {
+        "displayName": "Added member to workspace group",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_member_added",
+      "attributes": {
+        "displayName": "Added workspace member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_ssh_key_authorized",
+      "attributes": {
+        "displayName": "Authorized user SSH key",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_ssh_key_authorized",
+      "attributes": {
+        "displayName": "Authorized workspace SSH key",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_invitation_created",
+      "attributes": {
+        "displayName": "Invited user to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_oauth_consumer_created",
+      "attributes": {
+        "displayName": "Created OAuth 2.0 consumer",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_created",
+      "attributes": {
+        "displayName": "Created project",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_created",
+      "attributes": {
+        "displayName": "Created repository",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_created_repository_transfer_destination",
+      "attributes": {
+        "displayName": "Created request to transfer repository to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_created_repository_transfer_origin",
+      "attributes": {
+        "displayName": "Created request to transfer repository from workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_webhook_created",
+      "attributes": {
+        "displayName": "Created repository webhook",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_app_password_created",
+      "attributes": {
+        "displayName": "Added Bitbucket app password",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_created",
+      "attributes": {
+        "displayName": "Created workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_created",
+      "attributes": {
+        "displayName": "Created group in workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_deactivated",
+      "attributes": {
+        "displayName": "Deactivated Bitbucket account",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_invitation_deleted",
+      "attributes": {
+        "displayName": "Deleted user invitation to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_oauth_consumer_deleted",
+      "attributes": {
+        "displayName": "Deleted OAuth 2.0 consumer",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_deleted",
+      "attributes": {
+        "displayName": "Deleted project",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_deleted",
+      "attributes": {
+        "displayName": "Deleted repository",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_webhook_deleted",
+      "attributes": {
+        "displayName": "Deleted repository webhook",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_recovery_request_deleted",
+      "attributes": {
+        "displayName": "Deleted Bitbucket two-step verification recovery request",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_app_password_deleted",
+      "attributes": {
+        "displayName": "Removed Bitbucket app password",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_deleted",
+      "attributes": {
+        "displayName": "Deleted workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_deleted",
+      "attributes": {
+        "displayName": "Deleted group from workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_access_control_2sv_requirement_disabled",
+      "attributes": {
+        "displayName": "Disabled 2SV requirement",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_access_control_ip_allowlist_enforcement_disabled",
+      "attributes": {
+        "displayName": "Disabled IP allowlist enforcement",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_disabled",
+      "attributes": {
+        "displayName": "Disabled two-step verification in Bitbucket",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_private_content_enforcement_disabled",
+      "attributes": {
+        "displayName": "",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_access_control_2sv_requirement_enabled",
+      "attributes": {
+        "displayName": "Enabled 2SV requirement",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_access_control_ip_allowlist_enforcement_enabled",
+      "attributes": {
+        "displayName": "Enabled IP allowlist enforcement",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_enabled",
+      "attributes": {
+        "displayName": "Enabled two-step verification in Bitbucket",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_private_content_enforcement_enabled",
+      "attributes": {
+        "displayName": "",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_recovery_email_generated",
+      "attributes": {
+        "displayName": "Generated Bitbucket two-step verification recovery email",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_recovery_notice_email_generated",
+      "attributes": {
+        "displayName": "Generated Bitbucket two-step verification recovery notice email",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_connect_app_installed",
+      "attributes": {
+        "displayName": "Installed application",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_recovery_codes_regenerated",
+      "attributes": {
+        "displayName": "Regenerated Bitbucket two-step verification recovery codes",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_rejected_repository_transfer_destination",
+      "attributes": {
+        "displayName": "Rejected request to transfer repository to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_rejected_repository_transfer_origin",
+      "attributes": {
+        "displayName": "Rejected request to transfer repository from workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_group_permission_removed",
+      "attributes": {
+        "displayName": "Removed project group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_member_removed",
+      "attributes": {
+        "displayName": "Removed project member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_deploy_key_removed",
+      "attributes": {
+        "displayName": "Removed repository deploy key",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_group_permission_removed",
+      "attributes": {
+        "displayName": "Removed repository group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_member_removed",
+      "attributes": {
+        "displayName": "Removed repository member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_member_removed",
+      "attributes": {
+        "displayName": "Removed member from workspace group",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_permission_removed",
+      "attributes": {
+        "displayName": "Removed workspace group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_member_removed",
+      "attributes": {
+        "displayName": "Removed workspace member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_revoked_repository_transfer_destination",
+      "attributes": {
+        "displayName": "Revoked request to transfer repository to workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_revoked_repository_transfer_origin",
+      "attributes": {
+        "displayName": "Revoked request to transfer repository from workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_ssh_key_revoked",
+      "attributes": {
+        "displayName": "Revoked user SSH key",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_ssh_key_revoked",
+      "attributes": {
+        "displayName": "Revoked workspace SSH key",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_connect_app_uninstalled",
+      "attributes": {
+        "displayName": "Uninstalled application",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_access_control_ip_allowlist_updated",
+      "attributes": {
+        "displayName": "Updated IP allowlist",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_connect_app_updated",
+      "attributes": {
+        "displayName": "Updated application",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_oauth_consumer_updated",
+      "attributes": {
+        "displayName": "Updated OAuth 2.0 consumer",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_updated",
+      "attributes": {
+        "displayName": "Updated project",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_branching_model_updated",
+      "attributes": {
+        "displayName": "Updated project branching model",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_group_permission_updated",
+      "attributes": {
+        "displayName": "Updated project group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_member_updated",
+      "attributes": {
+        "displayName": "Updated project member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_merge_strategy_updated",
+      "attributes": {
+        "displayName": "Updated project merge strategy",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_project_pull_request_settings_updated",
+      "attributes": {
+        "displayName": "Updated project pull request settings",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_updated",
+      "attributes": {
+        "displayName": "Updated repository",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_branch_restriction_updated",
+      "attributes": {
+        "displayName": "Updated repository branch restrictions",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_group_permission_updated",
+      "attributes": {
+        "displayName": "Updated repository group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_identifier_updated",
+      "attributes": {
+        "displayName": "Updated repository identifier",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_member_updated",
+      "attributes": {
+        "displayName": "Updated repository member",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_privacy_setting_updated",
+      "attributes": {
+        "displayName": "Updated repository privacy setting",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_project_updated",
+      "attributes": {
+        "displayName": "Updated repository project",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_pull_request_settings_updated",
+      "attributes": {
+        "displayName": "Updated repository pull request settings",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_repository_webhook_updated",
+      "attributes": {
+        "displayName": "Updated repository webhook",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD REPOSITORY ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_username_updated",
+      "attributes": {
+        "displayName": "Updated username",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_updated",
+      "attributes": {
+        "displayName": "Updated workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_updated",
+      "attributes": {
+        "displayName": "Updated group in workspace",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_group_permission_updated",
+      "attributes": {
+        "displayName": "Updated workspace group permission",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_identifier_updated",
+      "attributes": {
+        "displayName": "Updated workspace identifier",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_workspace_privacy_setting_updated",
+      "attributes": {
+        "displayName": "Updated workspace privacy setting",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD WORKSPACE ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "bitbucket_cloud_user_2sv_recovery_codes_viewed",
+      "attributes": {
+        "displayName": "Viewed Bitbucket two-step verification recovery codes",
+        "groupDisplayNames": [
+          "BITBUCKET CLOUD USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_api_accessed",
+      "attributes": {
+        "displayName": "Accessed API",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_custom_detection_added",
+      "attributes": {
+        "displayName": "Added custom detection",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_detection_exclusion_added",
+      "attributes": {
+        "displayName": "Added detection exclusion",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_msteams_added",
+      "attributes": {
+        "displayName": "Added Microsoft Teams webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_siem_added",
+      "attributes": {
+        "displayName": "Added SIEM webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_slack_added",
+      "attributes": {
+        "displayName": "Added Slack integration",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_custom_detection_deleted",
+      "attributes": {
+        "displayName": "Deleted custom detection",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_detection_exclusion_deleted",
+      "attributes": {
+        "displayName": "Deleted detection exclusion",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_msteams_deleted",
+      "attributes": {
+        "displayName": "Deleted Microsoft Teams webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_siem_deleted",
+      "attributes": {
+        "displayName": "Deleted SIEM webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_slack_deleted",
+      "attributes": {
+        "displayName": "Deleted Slack integration",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_detection_disabled",
+      "attributes": {
+        "displayName": "Disabled detection",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_detection_enabled",
+      "attributes": {
+        "displayName": "Enabled detection",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_onboarded_workspace",
+      "attributes": {
+        "displayName": "Onboarded workspace",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_custom_detection_renamed",
+      "attributes": {
+        "displayName": "Renamed custom detection",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_msteams_tested",
+      "attributes": {
+        "displayName": "Tested Microsoft Teams webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_siem_tested",
+      "attributes": {
+        "displayName": "Tested SIEM webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_slack_tested",
+      "attributes": {
+        "displayName": "Tested Slack integration",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_alert_updated",
+      "attributes": {
+        "displayName": "Updated alert",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_custom_detection_updated",
+      "attributes": {
+        "displayName": "Updated custom detection",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_detection_exclusion_updated",
+      "attributes": {
+        "displayName": "Updated detection exclusion",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_detection_threshold_updated",
+      "attributes": {
+        "displayName": "Updated detection threshold",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_msteams_updated",
+      "attributes": {
+        "displayName": "Updated Microsoft Teams webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_siem_updated",
+      "attributes": {
+        "displayName": "Updated SIEM webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_slack_updated",
+      "attributes": {
+        "displayName": "Updated Slack integration",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_actor_profile_viewed",
+      "attributes": {
+        "displayName": "Viewed actor profile",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_alert_viewed",
+      "attributes": {
+        "displayName": "Viewed alert",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "beacon_alert_dashboard_viewed",
+      "attributes": {
+        "displayName": "Viewed alert dashboard",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_company_connection_created",
+      "attributes": {
+        "displayName": "Confluence company-connection created",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_company_connection_deleted",
+      "attributes": {
+        "displayName": "Confluence company-connection deleted",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "compass_incoming_webhook_created",
+      "attributes": {
+        "displayName": "Created Compass incoming webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "compass_incoming_webhook_deleted",
+      "attributes": {
+        "displayName": "Deleted Compass incoming webhook",
+        "groupDisplayNames": []
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_accessed_api",
+      "attributes": {
+        "displayName": "Made request to API",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_updated_content_classification_level",
+      "attributes": {
+        "displayName": "Updated classification level of Confluence content",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_blogpost_created",
+      "attributes": {
+        "displayName": "Created Confluence blog",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_page_created",
+      "attributes": {
+        "displayName": "Created Confluence page",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_blogpost_deleted",
+      "attributes": {
+        "displayName": "Deleted Confluence blog",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_page_deleted",
+      "attributes": {
+        "displayName": "Deleted Confluence page",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_blogpost_download",
+      "attributes": {
+        "displayName": "Downloaded Confluence blog export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_blogpost_finished",
+      "attributes": {
+        "displayName": "Completed Confluence blog export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_blogpost_started",
+      "attributes": {
+        "displayName": "Initiated Confluence blog export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_page_download",
+      "attributes": {
+        "displayName": "Downloaded Confluence page export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_page_finished",
+      "attributes": {
+        "displayName": "Completed Confluence page export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_page_started",
+      "attributes": {
+        "displayName": "Initiated Confluence page export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_space_download",
+      "attributes": {
+        "displayName": "Downloaded Confluence space export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_space_finished",
+      "attributes": {
+        "displayName": "Completed Confluence space export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_export_space_started",
+      "attributes": {
+        "displayName": "Initiated Confluence space export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_updated_default_classification_level",
+      "attributes": {
+        "displayName": "Updated default classification level of Confluence space",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_blogpost_updated",
+      "attributes": {
+        "displayName": "Edited Confluence blog",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_page_updated",
+      "attributes": {
+        "displayName": "Edited Confluence page",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_auto_update_attempt",
+      "attributes": {
+        "displayName": "Confluence app auto update attempt",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_auto_update_failed_permission_required",
+      "attributes": {
+        "displayName": "Confluence app auto update failed (permission required)",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_disable_failure",
+      "attributes": {
+        "displayName": "Confluence app disable failure",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_disable_success",
+      "attributes": {
+        "displayName": "Confluence app disable success",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_enable_failed",
+      "attributes": {
+        "displayName": "Confluence app enable failed",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_enable_success",
+      "attributes": {
+        "displayName": "Confluence app enable success",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_install_dependency_success",
+      "attributes": {
+        "displayName": "Confluence app successful dependency installation",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_install_failed",
+      "attributes": {
+        "displayName": "Confluence app failed installation",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_install_failed_unsupported_protocol",
+      "attributes": {
+        "displayName": "Confluence app failed installation (unsupported protocol)",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_install_success",
+      "attributes": {
+        "displayName": "Confluence app successful installation",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_uninstall_failed",
+      "attributes": {
+        "displayName": "Confluence app failed uninstallation",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_uninstall_success",
+      "attributes": {
+        "displayName": "Confluence app successful uninstallation",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_upm_app_update_failed",
+      "attributes": {
+        "displayName": "Confluence app update failed",
+        "groupDisplayNames": [
+          "CONFLUENCE APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_blogpost_viewed",
+      "attributes": {
+        "displayName": "Viewed Confluence blog",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_page_viewed",
+      "attributes": {
+        "displayName": "Viewed Confluence page",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_created",
+      "attributes": {
+        "displayName": "Created new help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_topic_created",
+      "attributes": {
+        "displayName": "Created topics in help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_deleted",
+      "attributes": {
+        "displayName": "Deleted a help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_topic_deleted",
+      "attributes": {
+        "displayName": "Deleted topics in help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_updated",
+      "attributes": {
+        "displayName": "Updated a help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_announcements_updated",
+      "attributes": {
+        "displayName": "Updated announcement in help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_portals_updated",
+      "attributes": {
+        "displayName": "Updated portal visibility in help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_settings_updated",
+      "attributes": {
+        "displayName": "Updated help center settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "help_center_topic_updated",
+      "attributes": {
+        "displayName": "Edited topics in help center",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_added_to_site",
+      "attributes": {
+        "displayName": "Synced group to site",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_add_member",
+      "attributes": {
+        "displayName": "Added user to group",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_added_to_group",
+      "attributes": {
+        "displayName": "Added user to group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_added_to_site",
+      "attributes": {
+        "displayName": "Synced user to site",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_added",
+      "attributes": {
+        "displayName": "Added domain to verify",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "added_domain_to_org",
+      "attributes": {
+        "displayName": "Added domain to approved domains",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "added_notify_admin_setting",
+      "attributes": {
+        "displayName": "Added notify admin setting",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_access_settings_domain_non_vogue_added",
+      "attributes": {
+        "displayName": "Added site based approved domains",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_access_settings_domain_vogue_added",
+      "attributes": {
+        "displayName": "Added products to approved domains",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "api_admin_groups_search",
+      "attributes": {
+        "displayName": "Admin groups search within organization",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "api_admin_users_search",
+      "attributes": {
+        "displayName": "Admin users search within organization",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "role_assignment_added_to_group",
+      "attributes": {
+        "displayName": "Role assignment added to group",
+        "groupDisplayNames": [
+          "IDENTITY PERMISSIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "role_assignment_removed_from_group",
+      "attributes": {
+        "displayName": "Role assignment removed from group",
+        "groupDisplayNames": [
+          "IDENTITY PERMISSIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "ts_api_token_creation",
+      "attributes": {
+        "displayName": "Created API token",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "ts_api_token_deletion",
+      "attributes": {
+        "displayName": "Revoked API token",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "ts_api_token_viewed",
+      "attributes": {
+        "displayName": "Viewed API token",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "approved_users_access_request",
+      "attributes": {
+        "displayName": "Approved access request",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "become_managed_scim_user",
+      "attributes": {
+        "displayName": "Made user a managed account",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "become_unmanaged_scim_user",
+      "attributes": {
+        "displayName": "Made user an unmanaged account",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_auth_policy_changed",
+      "attributes": {
+        "displayName": "Changed authentication policy for domain",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "password_policy_changed",
+      "attributes": {
+        "displayName": "Updated password policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "saml_policy_changed",
+      "attributes": {
+        "displayName": "Updated SAML configuration",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_auth_policy_changed",
+      "attributes": {
+        "displayName": "Changed user's authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_troubleshooting_log_cleared",
+      "attributes": {
+        "displayName": "Cleared user provisioning troubleshooting log",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_auto_sync_complete",
+      "attributes": {
+        "displayName": "Completed automatic sync from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_manual_sync_complete",
+      "attributes": {
+        "displayName": "Completed manual sync from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "create_users_access_request_check",
+      "attributes": {
+        "displayName": "Created access request",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "create_invite_url",
+      "attributes": {
+        "displayName": "Created invitation url",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_directory_created",
+      "attributes": {
+        "displayName": "Created user provisioning directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_create",
+      "attributes": {
+        "displayName": "Added group from identity provider",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_user_create",
+      "attributes": {
+        "displayName": "Added user from identity provider",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "managed_account_deactivated",
+      "attributes": {
+        "displayName": "Deactivated account",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "remove_invite_url",
+      "attributes": {
+        "displayName": "Removed invitation url",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_directory_deleted",
+      "attributes": {
+        "displayName": "Removed user provisioning directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_delete",
+      "attributes": {
+        "displayName": "Removed group from identity provider",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_user_delete",
+      "attributes": {
+        "displayName": "Removed user from identity provider",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_deleted",
+      "attributes": {
+        "displayName": "Removed domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_auth_policy_deleted",
+      "attributes": {
+        "displayName": "Removed domain from authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "managed_account_deleted",
+      "attributes": {
+        "displayName": "Deleted account permanently",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "saml_policy_deleted",
+      "attributes": {
+        "displayName": "Deleted SAML configuration",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_auth_policy_deleted",
+      "attributes": {
+        "displayName": "Removed user from authentication policy",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "managed_account_deletion_cancelled",
+      "attributes": {
+        "displayName": "Canceled deletion of account",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "managed_account_deletion_scheduled",
+      "attributes": {
+        "displayName": "Scheduled deletion of account",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_sync_disabled",
+      "attributes": {
+        "displayName": "Disabled sync from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "gsync_sso_disabled",
+      "attributes": {
+        "displayName": "Disabled requiring Google login",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_sync_enabled",
+      "attributes": {
+        "displayName": "Enabled sync from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "gsync_sso_enabled",
+      "attributes": {
+        "displayName": "Enabled requiring Google login",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_auth_policy_failed",
+      "attributes": {
+        "displayName": "Failed to update authentication policy for domain",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_auth_policy_failed",
+      "attributes": {
+        "displayName": "Failed to update authentication policy for user",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_added_as_product_default",
+      "attributes": {
+        "displayName": "Made group a default group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_added_as_role_default",
+      "attributes": {
+        "displayName": "Updated group to default group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_created",
+      "attributes": {
+        "displayName": "Created group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_deleted",
+      "attributes": {
+        "displayName": "Deleted group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_granted_admin_access",
+      "attributes": {
+        "displayName": "Granted product admin access to group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_granted_product_access",
+      "attributes": {
+        "displayName": "Granted product access to group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_granted_role",
+      "attributes": {
+        "displayName": "Granted role to group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_removed_as_product_default",
+      "attributes": {
+        "displayName": "Remove default access from group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_removed_as_role_default",
+      "attributes": {
+        "displayName": "Removed default setting from group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_revoked_admin_access",
+      "attributes": {
+        "displayName": "Removed product admin access from group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_revoked_product_access",
+      "attributes": {
+        "displayName": "Removed product access from group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "group_revoked_role",
+      "attributes": {
+        "displayName": "Removed role from group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "email_change",
+      "attributes": {
+        "displayName": "Changed email address",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "gsync_connection",
+      "attributes": {
+        "displayName": "Connected to Google Workspace",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "gsync_disconnection",
+      "attributes": {
+        "displayName": "Disconnected from Google Workspace",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_auto_sync_initiated",
+      "attributes": {
+        "displayName": "Initiated automatic sync from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_manual_sync_initiated",
+      "attributes": {
+        "displayName": "Initiated manual sync from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "gsync_user_invite",
+      "attributes": {
+        "displayName": "Invited user after Google Workspace sync",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "join_through_direct_access",
+      "attributes": {
+        "displayName": "Joined through approved domains",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "join_invite_url",
+      "attributes": {
+        "displayName": "Joined through invitation url",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_user_linked_to_aa",
+      "attributes": {
+        "displayName": "Linked Atlassian account to user in identity provider",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_login",
+      "attributes": {
+        "displayName": "Logged in to account",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_logout",
+      "attributes": {
+        "displayName": "Logged out of account",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "modify_access_request_settings",
+      "attributes": {
+        "displayName": "Updated access request settings",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "modify_notify_admin_setting",
+      "attributes": {
+        "displayName": "Updated notify admin setting",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "modify_open_invite_setting",
+      "attributes": {
+        "displayName": "Updated invite setting",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "modify_self_join_setting",
+      "attributes": {
+        "displayName": "Updated site based domain enabled signup setting",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "password_change",
+      "attributes": {
+        "displayName": "Reset password for user",
+        "groupDisplayNames": [
+          "SECURITY POLICIES"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "password_reset_complete",
+      "attributes": {
+        "displayName": "Reset password with recovery link",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "password_reset_request",
+      "attributes": {
+        "displayName": "Requested password recovery link",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "managed_account_reactivated",
+      "attributes": {
+        "displayName": "Reactivated account",
+        "groupDisplayNames": [
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "regenerate_invite_url",
+      "attributes": {
+        "displayName": "Regenerated invitation url",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "reject_users_access_request",
+      "attributes": {
+        "displayName": "Rejected access request",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_remove_member",
+      "attributes": {
+        "displayName": "Removed user from group",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_removed_from_group",
+      "attributes": {
+        "displayName": "Removed user from group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_verification_removed",
+      "attributes": {
+        "displayName": "Unverified domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_access_settings_domain_non_vogue_removed",
+      "attributes": {
+        "displayName": "Removed site based approved domains",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_access_settings_domain_vogue_removed",
+      "attributes": {
+        "displayName": "Removed products from approved domains",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_access_settings_org_domain_removed",
+      "attributes": {
+        "displayName": "Removed domain from approved domains",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_rename",
+      "attributes": {
+        "displayName": "Renamed a group",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "renamed_group_in_site",
+      "attributes": {
+        "displayName": "Renamed a group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "renamed_duplicate_group",
+      "attributes": {
+        "displayName": "Renamed duplicate group",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "reset_user_access_settings",
+      "attributes": {
+        "displayName": "Reset user access settings",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "reuse_site_group_name",
+      "attributes": {
+        "displayName": "Reuse site group name",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_directory_token_rotated",
+      "attributes": {
+        "displayName": "Regenerated API key for user provisioning directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "site_sync_all_conflicting_groups",
+      "attributes": {
+        "displayName": "Synced all groups with conflicts from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "site_sync_conflicting_group",
+      "attributes": {
+        "displayName": "Synced group with conflicts from external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_directory_takeover",
+      "attributes": {
+        "displayName": "Reconfigured external directory",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_user_unlinked_from_aa",
+      "attributes": {
+        "displayName": "Unlinked Atlassian account from user in identity provider",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_protected_delete",
+      "attributes": {
+        "displayName": "Unlinked group from SCIM",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "des_promotion_update",
+      "attributes": {
+        "displayName": "Updated approved domains through domain enabled signup promotion",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "update_not_allowed_note",
+      "attributes": {
+        "displayName": "Updated not allowed invite note",
+        "groupDisplayNames": [
+          "USER ACCESS SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_group_update",
+      "attributes": {
+        "displayName": "Updated external identifier of group",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "scim_user_update",
+      "attributes": {
+        "displayName": "Updated account profile for user",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "gsync_user_invitation_message_updated",
+      "attributes": {
+        "displayName": "Updated Google Workspace invite message",
+        "groupDisplayNames": [
+          "USER PROVISIONING"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_detail_change",
+      "attributes": {
+        "displayName": "Updated account profile for user",
+        "groupDisplayNames": [
+          "SETTINGS",
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_suspended_added_to_org",
+      "attributes": {
+        "displayName": "Added suspended user to organization",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_suspended_added_to_site",
+      "attributes": {
+        "displayName": "Added suspended user to site",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_disabled_org_access",
+      "attributes": {
+        "displayName": "Revoked organization access from user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_disabled_site_access",
+      "attributes": {
+        "displayName": "Revoked site access from user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_enabled_org_access",
+      "attributes": {
+        "displayName": "Granted organization access to user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_enabled_site_access",
+      "attributes": {
+        "displayName": "Granted site access to user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_org_user_list_exported",
+      "attributes": {
+        "displayName": "Exported users from directory",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_site_user_list_exported",
+      "attributes": {
+        "displayName": "Exported users from site",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_granted_product_access",
+      "attributes": {
+        "displayName": "Granted product access to user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_granted_role",
+      "attributes": {
+        "displayName": "Granted role to user for product",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_invite_to_org",
+      "attributes": {
+        "displayName": "Invited user to organization",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_invited_to_product",
+      "attributes": {
+        "displayName": "Invited user to site",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_invite_to_site",
+      "attributes": {
+        "displayName": "Invited user to site",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_invited",
+      "attributes": {
+        "displayName": "Invited user to site",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_logged_in_as_user",
+      "attributes": {
+        "displayName": "Logged in as user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_password_reset_requested",
+      "attributes": {
+        "displayName": "Prompted user to reset password",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_re_invited_to_org",
+      "attributes": {
+        "displayName": "Resent invite to user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_re_invited",
+      "attributes": {
+        "displayName": "Resent site invitation to user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_removed_from_org",
+      "attributes": {
+        "displayName": "Removed user from organization",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_removed_from_site",
+      "attributes": {
+        "displayName": "Removed user from site",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_details_change_requested",
+      "attributes": {
+        "displayName": "Suggested changes to details for user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_revoked_product_access",
+      "attributes": {
+        "displayName": "Revoked product access from user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_revoked_role",
+      "attributes": {
+        "displayName": "Revoked role from user for product",
+        "groupDisplayNames": [
+          "USER MANAGEMENT"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "user_created",
+      "attributes": {
+        "displayName": "Created account for user",
+        "groupDisplayNames": [
+          "USER MANAGEMENT",
+          "ATLASSIAN ACCOUNTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "domain_verification_completed",
+      "attributes": {
+        "displayName": "Verified domain",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_accessed_api",
+      "attributes": {
+        "displayName": "Made request to API",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_type_created",
+      "attributes": {
+        "displayName": "Created Issue Type",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_type_deleted",
+      "attributes": {
+        "displayName": "Deleted Issue Type",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_type_updated",
+      "attributes": {
+        "displayName": "Updated Issue Type",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_classification_level_set",
+      "attributes": {
+        "displayName": "Updated classification level of Jira issue",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_sprint_closed",
+      "attributes": {
+        "displayName": "Closed sprint",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_created",
+      "attributes": {
+        "displayName": "Created Jira issue",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_sprint_created",
+      "attributes": {
+        "displayName": "Created sprint",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_deleted",
+      "attributes": {
+        "displayName": "Deleted Jira issue",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_sprint_deleted",
+      "attributes": {
+        "displayName": "Deleted sprint",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_sprint_imported",
+      "attributes": {
+        "displayName": "Imported sprint",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_sprint_started",
+      "attributes": {
+        "displayName": "Started sprint",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_customer_access_settings_updated",
+      "attributes": {
+        "displayName": "Updated customer access settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_updated",
+      "attributes": {
+        "displayName": "Edited Jira issue",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_updated_project_data_classification_level",
+      "attributes": {
+        "displayName": "Updated default classification level of Jira project",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_sprint_updated",
+      "attributes": {
+        "displayName": "Updated sprint",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_auto_update_attempt",
+      "attributes": {
+        "displayName": "Jira app auto update attempt",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_auto_update_failed_permission_required",
+      "attributes": {
+        "displayName": "Jira app auto update failed (permission required)",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_disable_failure",
+      "attributes": {
+        "displayName": "Jira app disable failure",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_disable_success",
+      "attributes": {
+        "displayName": "Jira app disable success",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_enable_failed",
+      "attributes": {
+        "displayName": "Jira app enable failed",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_enable_success",
+      "attributes": {
+        "displayName": "Jira app enable success",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_install_dependency_success",
+      "attributes": {
+        "displayName": "Jira app successful dependency installation",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_install_failed",
+      "attributes": {
+        "displayName": "Jira app failed installation",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_install_failed_unsupported_protocol",
+      "attributes": {
+        "displayName": "Jira app failed installation (unsupported protocol)",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_install_success",
+      "attributes": {
+        "displayName": "Jira app successful installation",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_uninstall_failed",
+      "attributes": {
+        "displayName": "Jira app failed uninstallation",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_uninstall_success",
+      "attributes": {
+        "displayName": "Jira app successful uninstallation",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_upm_app_update_failed",
+      "attributes": {
+        "displayName": "Jira app update failed",
+        "groupDisplayNames": [
+          "JIRA APP ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_issue_viewed",
+      "attributes": {
+        "displayName": "Viewed Jira issue",
+        "groupDisplayNames": [
+          "JIRA USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_customer_created",
+      "attributes": {
+        "displayName": "Created new customers",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_incoming_email_requests_settings_created",
+      "attributes": {
+        "displayName": "Turned on email support or connected custom email account",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_internal_customer_notification_settings_created",
+      "attributes": {
+        "displayName": "Created customer notification settings for team managed projects",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_language_support_language_added",
+      "attributes": {
+        "displayName": "Language added to project",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_msteams_connection_created",
+      "attributes": {
+        "displayName": "Connected with Microsoft Teams",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_organization_created",
+      "attributes": {
+        "displayName": "Created customer organization",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_portal_group_created",
+      "attributes": {
+        "displayName": "Created portal groups",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_queue_created",
+      "attributes": {
+        "displayName": "Created Queue",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_report_created",
+      "attributes": {
+        "displayName": "Created reports",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_request_type_created",
+      "attributes": {
+        "displayName": "Created a new request type",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_created",
+      "attributes": {
+        "displayName": "Created SLA",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_calendar_created",
+      "attributes": {
+        "displayName": "Created SLA calendar",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_slack_connection_created",
+      "attributes": {
+        "displayName": "Connected with Slack",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_zoom_connection_created",
+      "attributes": {
+        "displayName": "Connected with Zoom",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_deleted_customer_from_project",
+      "attributes": {
+        "displayName": "Removed customers from project",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_incoming_email_requests_settings_deleted",
+      "attributes": {
+        "displayName": "Turned off email support or disconnected custom email account",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_internal_customer_notification_settings_deleted",
+      "attributes": {
+        "displayName": "Deleted customer notification settings for team managed projects",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_language_support_language_removed",
+      "attributes": {
+        "displayName": "Language removed from project",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_msteams_connection_deleted",
+      "attributes": {
+        "displayName": "Disconnected from Microsoft Teams",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_organization_deleted",
+      "attributes": {
+        "displayName": "Deleted customer organization",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_portal_group_deleted",
+      "attributes": {
+        "displayName": "Deleted portal groups",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_queue_deleted",
+      "attributes": {
+        "displayName": "Deleted Queue",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_report_deleted",
+      "attributes": {
+        "displayName": "Deleted reports",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_request_type_deleted",
+      "attributes": {
+        "displayName": "Deleted request type",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_deleted",
+      "attributes": {
+        "displayName": "Deleted SLA",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_calendar_deleted",
+      "attributes": {
+        "displayName": "Deleted SLA calendar",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_slack_connection_deleted",
+      "attributes": {
+        "displayName": "Disconnected from Slack",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_zoom_connection_deleted",
+      "attributes": {
+        "displayName": "Disconnected from Zoom",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_report_exported",
+      "attributes": {
+        "displayName": "Exported reports",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_agent_invited",
+      "attributes": {
+        "displayName": "Invited team to project",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_invited_customer_to_project",
+      "attributes": {
+        "displayName": "Added customers to project",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_authentication_settings_updated",
+      "attributes": {
+        "displayName": "Updated customer login settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_customer_notification_settings_updated",
+      "attributes": {
+        "displayName": "Updated customer notification settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_customer_organization_management_access_updated",
+      "attributes": {
+        "displayName": "Updated customer organization permission",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_customer_organization_request_sharing_settings_updated",
+      "attributes": {
+        "displayName": "Updated auto-share requests with customer organizations setting",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_customer_permissions_settings_updated",
+      "attributes": {
+        "displayName": "Updated customer permissions",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_deployment_change_configuration_settings_updated",
+      "attributes": {
+        "displayName": "Updated change management deployment pipelines",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_features_updated",
+      "attributes": {
+        "displayName": "Updated project features",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_global_incoming_email_settings_updated",
+      "attributes": {
+        "displayName": "Updated global incoming email settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_incident_management_settings_updated",
+      "attributes": {
+        "displayName": "Updated responder alert settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_incoming_email_requests_settings_updated",
+      "attributes": {
+        "displayName": "Updated email account settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_internal_customer_notification_settings_updated",
+      "attributes": {
+        "displayName": "Updated customer notification settings for team managed projects",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_jira_notifications_for_customer_updated",
+      "attributes": {
+        "displayName": "Updated customer notifications setting",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_knowledge_base_settings_updated",
+      "attributes": {
+        "displayName": "Updated knowledge base",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_language_support_language_available_updated",
+      "attributes": {
+        "displayName": "Language availability updated",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_language_support_language_default_updated",
+      "attributes": {
+        "displayName": "Project default language updated",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_msteams_connection_updated",
+      "attributes": {
+        "displayName": "Updated connection with Microsoft Teams",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_organization_updated",
+      "attributes": {
+        "displayName": "Updated customer organization",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_organization_member_updated",
+      "attributes": {
+        "displayName": "Updated customer organization membership",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_portal_group_updated",
+      "attributes": {
+        "displayName": "Updated portal groups",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_portal_settings_updated",
+      "attributes": {
+        "displayName": "Updated project portal configurations",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_queue_updated",
+      "attributes": {
+        "displayName": "Updated Queue",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_report_updated",
+      "attributes": {
+        "displayName": "Updated reports",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_request_type_updated",
+      "attributes": {
+        "displayName": "Updated request types",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_safe_notification_settings_updated",
+      "attributes": {
+        "displayName": "Updated compliance settings",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_updated",
+      "attributes": {
+        "displayName": "Updated SLA",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_calendar_updated",
+      "attributes": {
+        "displayName": "Updated SLA calendar",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PROJECT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_sla_metric_creation_access_updated",
+      "attributes": {
+        "displayName": "Updated name creation for SLA metrics permission",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jsm_team_managed_project_creation_settings_updated",
+      "attributes": {
+        "displayName": "Updated team-managed project creation permission",
+        "groupDisplayNames": [
+          "JIRA SERVICE MANAGEMENT PRODUCT ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "release_track_bundle_released",
+      "attributes": {
+        "displayName": "Released bundled changes for product",
+        "groupDisplayNames": [
+          "PRODUCTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "release_track_subscription_updated",
+      "attributes": {
+        "displayName": "Changed release track for product",
+        "groupDisplayNames": [
+          "PRODUCTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "sandbox_parent_cloned",
+      "attributes": {
+        "displayName": "Copied data to sandbox",
+        "groupDisplayNames": [
+          "PRODUCTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "product_sandbox_created",
+      "attributes": {
+        "displayName": "Created sandbox",
+        "groupDisplayNames": [
+          "PRODUCTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "product_sandbox_deleted",
+      "attributes": {
+        "displayName": "Deleted sandbox",
+        "groupDisplayNames": [
+          "PRODUCTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "product_sandbox_restored",
+      "attributes": {
+        "displayName": "Restored sandbox",
+        "groupDisplayNames": [
+          "PRODUCTS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "confluence_workspace_settings_update",
+      "attributes": {
+        "displayName": "Settings update",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "jira_workspace_settings_update",
+      "attributes": {
+        "displayName": "Settings update",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "org_settings_update",
+      "attributes": {
+        "displayName": "Settings update",
+        "groupDisplayNames": [
+          "SETTINGS"
+        ]
+      },
+      "links": null,
+      "message": null
+    },
+    {
+      "type": "eventActions",
+      "id": "upp_confluence_page_export_deny",
+      "attributes": {
+        "displayName": "Denied Confluence page export",
+        "groupDisplayNames": [
+          "CONFLUENCE USER ACTIONS"
+        ]
+      },
+      "links": null,
+      "message": null
+    }
+  ],
+  "links": {},
+  "meta": null
+}
