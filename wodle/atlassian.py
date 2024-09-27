@@ -150,7 +150,7 @@ def get_retry(url, headers, retries):
 def get_log_page(url, headers, earliest_time):
 	results = get_retry(url, headers, MAX_API_RETRIES)
 
-	if results.get('status'):
+	if results.get('status') or results.get('code'):
 		fatal_error(json.dumps(results))
 	
 	for event in results.get('data', []):
