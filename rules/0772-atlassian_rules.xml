@@ -1,0 +1,156 @@
+<!--
+  Atlassian rules ID: 65700 - 64799
+-->
+
+<var name="atlassian_description">Atlassian : $(atlassian.description)</var>
+
+<group name="atlassian,">
+
+  <rule id="65700" level="3">
+    <decoded_as>json</decoded_as>
+    <field name="atlassian.orgId">\.+</field>
+    <description>$atlassian_description</description>
+  </rule>
+
+  <rule id="65701" level="14">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">^extraction error</field>
+    <description>$atlassian_description</description>
+  </rule>
+
+  <rule id="65702" level="12">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">^extraction warning</field>
+    <description>$atlassian_description</description>
+  </rule>
+
+  <rule id="65710" level="5">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">^user login|^user logout</field>
+    <description>$atlassian_description</description>
+  </rule>
+
+  <rule id="65712" level="6">
+    <if_sid>65700</if_sid>
+    <field negate="yes" name="atlassian.action">^user login|^user logout</field>
+    <field name="atlassian.action">user|group|managed account|^join |grant|revoke|invite|enable|disable|activate|permission</field>
+    <description>$atlassian_description</description>
+  </rule>
+
+  <rule id="65714" level="7">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">password|auth|scim</field>
+    <description>$atlassian_description</description>
+  </rule>
+
+  <rule id="65716" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">admin|policy|role|config|setting</field>
+    <description>Atlassian [admin] : $(atlassian.description)"</description>
+  </rule>
+
+  <rule id="65717" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">global permission|space permission|permission scheme|security level|invite url</field>
+    <description>Atlassian [permission] : $(atlassian.description)"</description>
+  </rule>
+
+  <rule id="65718" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">export</field>
+    <description>Atlassian [export]: $(atlassian.description)</description>
+    <group>DLP</group>
+  </rule>
+
+  <rule id="65719" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">2sv|twosv</field>
+    <description>Atlassian [2SV]: $(atlassian.description)</description>
+  </rule>
+
+  <rule id="65720" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">api token</field>
+    <description>Atlassian [API token]: $(atlassian.description)</description>
+    <group>DLP</group>
+  </rule>
+
+  <rule id="65721" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">migration</field>
+    <description>Atlassian [migration]: $(atlassian.description)</description>
+    <group>DLP</group>
+  </rule>
+
+  <rule id="65722" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">webhook</field>
+    <description>Atlassian [webhook]: $(atlassian.description)</description>
+    <group>DLP</group>
+  </rule>
+
+  <rule id="65723" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">ssh key</field>
+    <description>Atlassian [SSH key]: $(atlassian.description)</description>
+    <group>DLP</group>
+  </rule>
+
+  <rule id="65724" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">ip allowlist</field>
+    <description>Atlassian [IP allowlist]: $(atlassian.description)</description>
+    <group>DLP</group>
+  </rule>
+
+  <rule id="65725" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">secure tunnel</field>
+    <description>Atlassian [secure tunnel]: $(atlassian.description)</description>
+  </rule>
+
+  <rule id="65726" level="10">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">^classification level</field>
+    <description>Atlassian [classification level]: $(atlassian.description)</description>
+  </rule>
+
+
+  <rule id="65730" level="12">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.actionType">^unknown</field>
+    <description>Atlassian [unknown action type] : $(atlassian.description)</description>
+  </rule>
+
+  <rule id="65731" level="12">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action">^beacon</field>
+    <description>Atlassian [threat detection] : $(atlassian.description)</description>
+  </rule>
+
+
+  <rule id="65732" level="12">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.action"> as user</field>
+    <description>Atlassian [impersonation] : $(atlassian.description)</description>
+  </rule>
+
+
+  Edited CDEN Setting custom domain
+  <rule id="65750" level="12" frequency="100" timeframe="300" ignore="600">
+    <if_matched_sid>65700</if_matched_sid>
+    <field name="atlassian.action">download|export</field>
+    <same_field>user</same_field>
+    <same_field>atlassian.action</same_field>
+    <description>Atlassian [DLP] : intensive download activity, DLP warning for user $(user)</description>
+    <group>DLP</group>
+  </rule>
+
+
+  <rule id="65760" level="0">
+    <if_sid>65700</if_sid>
+    <field name="atlassian.description">^Edited CDEN Setting custom domain</field>
+    <description>Atlassian [silenced] : $(atlassian.description) (not a real audit message, see https://jira.atlassian.com/browse/ACCESS-1326)</description>
+  </rule>
+
+</group>

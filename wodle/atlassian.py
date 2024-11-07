@@ -27,6 +27,7 @@ ATLASSIAN_APPLICATIONS = {
 parser = argparse.ArgumentParser(description="Export Atlassian logs of various services such as Jira, Confluence, etc.")
 parser.add_argument('--offset', '-o', dest='offset', required=False, default=24, type=int, help='maximum number of hours to go back in time')
 parser.add_argument('--unread', '-u', dest='unread', action='store_true', help='export events but keep them marked as unread') 
+parser.add_argument('--actions', '-a', dest='actions', action='store_true', help='download the list of known audit actions and their meta data')
 args = parser.parse_args()
 
 CONFIG = None
@@ -38,18 +39,23 @@ def main():
 	offset_time = datetime.now() - timedelta(hours = args.offset)
 	offset_time = offset_time.strftime('%Y-%m-%dT%H:%M:%S.%f')[:-3] + 'Z'
 	
-	global CONFIG, ACTIONS
+	global CONFIG
 	CONFIG = load_config()
-	ACTIONS = load_actions()
-	earliest_time = load_state().get(STR_LAST_EVENT_TIME) or offset_time
 
-	get_logs(earliest_time)
-	if not args.unread:
-		update_state()
+	if args.actions:
+		get_actions()
+	else:
+		global ACTIONS
+		ACTIONS = load_actions()
+		earliest_time = load_state().get(STR_LAST_EVENT_TIME) or offset_time
+		get_logs(earliest_time)
 
-	print_results()
+		if not args.unread:
+			update_state()
 
-	json_msg('extraction finished', 'extraction finished')
+		print_results()
+
+		json_msg('extraction finished', 'extraction finished')
 
 
 def load_config():
@@ -117,6 +123,32 @@ def get_logs(earliest_time):
 	while (nextPage):
 		time.sleep(70)
 		nextPage = get_log_page(nextPage, headers, earliest_time)
+
+def get_actions():
+	orgId = dict_path(CONFIG, STR_ORGID)
+	apiKey = dict_path(CONFIG, STR_API_KEY)
+
+	# API endpoint for event actions without parameters
+	url = "https://api.atlassian.com/admin/v1/orgs/{}/event-actions".format(orgId)
+	headers = {
+        "Accept": "application/json",
+        "Authorization": "Bearer {}".format(apiKey),
+    }
+
+	try:
+		response = requests.get(url, headers=headers)
+		response.raise_for_status()  # Raise an exception for HTTP errors
+
+		result_data = response.json()
+
+		with open("actions.json", "w") as file:
+			json.dump(result_data, file, indent=4)
+
+		print("Data successfully written to actions.json.")
+
+	except requests.exceptions.RequestException as e:
+		# Handle possible errors or unsuccessful requests
+		print(f"Failed to fetch data: {e}")
 
 
 def dict_path(dictionary, *path):
