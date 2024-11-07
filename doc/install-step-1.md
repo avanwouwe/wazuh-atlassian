@@ -8,4 +8,4 @@
 * select `API keys` from the vertical menu bar
 * create the key and store it in your secret management tool
 
-![screenshot of Atlassian API key management screen](/doc/create API key.png)
+![screenshot of Atlassian API key management screen](/doc/create%20API%20key.png)
