@@ -15,7 +15,7 @@ wazuh-atlassian/
 In the `docker-compose.yml` mount the `/wodle` directory of this repo so that it is available on the Wazuh master.
 ```
     volumes:
-      - ../../wazuh-gworkspace/wodle:/var/ossec/wodles/atlassian
+      - ../../wazuh-atlassian/wodle:/var/ossec/wodles/atlassian
 ```
 
 And then create a shell session on the master node:
@@ -47,7 +47,7 @@ Atlassian propose an API that lists all the audit events available to your licen
 
 You can test that the wodle works by running it and checking that it outputs log events in JSON format. The --unread parameter ensures that the historical messages will be left unread for the next run. 
 ```
-./gworkspace --unread
+./atlassian --unread
 ```
 
 # add rules
